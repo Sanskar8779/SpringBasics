@@ -27,6 +27,12 @@ Contains the learnings and implementation of **Spring** and **Spring Boot**
   - Constructor injection ensures that the dependencies are available when the object is created.
 
 
+- **<u>Setter Injection</u>**
+  - Dependencies are provided to the dependent class through setter methods
+  - Dependent class exposes setter methods for each dependency that needs to be injected
+  - Setter injection allows for flexibility as dependencies can be changed or updated after the object is instantiated
+
+
 ## 📌 Beans
 
 - Objects that are managed by frameworks are called **Beans**.
