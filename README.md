@@ -64,8 +64,8 @@ Contains the learnings and implementation of **Spring** and **Spring Boot**
 - **Spring Container** is the core part of Spring that creates, configures, and manages application objects (beans) and handles their dependency injection automatically.
 - Two Types of Spring Containers:
   - Application Context
-    - Bean Factory
-      ![Container.png](images/img_1.png)
+  - Bean Factory
+    ![Container.png](images/img_1.png)
 - Configuration contains bean definition.
 
 
