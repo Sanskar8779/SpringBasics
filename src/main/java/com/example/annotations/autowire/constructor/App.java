@@ -1,4 +1,4 @@
-package com.example.autowire.constructor;
+package com.example.annotations.autowire.constructor;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;

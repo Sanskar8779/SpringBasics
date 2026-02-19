@@ -1,4 +1,4 @@
-package com.example.autowire.name;
+package com.example.annotations.autowire.name;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;

@@ -68,6 +68,35 @@ Contains the learnings and implementation of **Spring** and **Spring Boot**
     ![Container.png](images/img_1.png)
 - Configuration contains bean definition.
 
+## 📌 Annotations
+- **Annotations** in Java provide a way to add metadata to your code.
+- **<u>Commonly Used Spring Annotations</u>:**
+  - @Component
+  - @Autowired
+  - @Qualifier
+  - @Value
+  - @Repository
+  - @Service
+  - @Controller
+  - @Request Mapping
+  - @SpringBootApplication
+
+## 📌 Components and Component Scan
+- **Component** refers to a Java class that is managed by the Spring IoC container.
+- There are two ways to define components in Java:
+  - Using XML
+  - Using Annotations
+- ### <u>Using XML:</u>
+        <bean id="myComponent" class="com.example.MyComponent" />
+
+- ### <u>Using Annotations:</u>
+        import org.springframework.stereotype.Component;
+        @Component // Marks the class as a Spring component
+        public class MyComponent {
+          // Class implementation
+        }
+
+- **Component Scanning** is a feature which helps to automatically detect and register beans from predefined package paths.
 
 
 

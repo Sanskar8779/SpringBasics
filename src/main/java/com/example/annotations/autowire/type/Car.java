@@ -1,9 +1,9 @@
-package com.example.autowire.constructor;
+package com.example.annotations.autowire.type;
 
 public class Car {
     private Specification specification;
 
-    public Car(Specification specification) {
+    public void setSpecification(Specification specification) {
         this.specification = specification;
     }
 

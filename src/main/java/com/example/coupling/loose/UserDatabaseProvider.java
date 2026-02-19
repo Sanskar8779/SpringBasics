@@ -1,4 +1,4 @@
-package com.coupling.loose;
+package com.example.coupling.loose;
 
 public class UserDatabaseProvider implements UserDataProvider {
     @Override
