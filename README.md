@@ -1,6 +1,6 @@
-# Spring and Spring Boot Basics
+# Spring Basics
 
-Contains the learnings and implementation of **Spring** and **Spring Boot**
+Contains the learnings and implementation of **Spring**.
 
 ---
 ## 📌 Loose Coupling

@@ -1,4 +1,4 @@
-package com.example.annotations.autowire.type;
+package com.example.autowire.constructor;
 
 public class Specification {
     private String make;

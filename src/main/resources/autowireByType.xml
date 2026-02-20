@@ -5,11 +5,11 @@
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <!-- bean definitions here -->
-    <bean id="specification" class="com.example.annotations.autowire.type.Specification">
+    <bean id="specification" class="com.example.autowire.type.Specification">
         <property name="make" value="BMW"/>
         <property name="model" value="M5"/>
     </bean>
 
-    <bean id="myCar" class="com.example.annotations.autowire.type.Car" autowire="byType"/>
+    <bean id="myCar" class="com.example.autowire.type.Car" autowire="byType"/>
 
 </beans>
